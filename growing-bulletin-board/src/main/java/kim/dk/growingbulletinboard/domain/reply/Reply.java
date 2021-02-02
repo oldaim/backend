@@ -14,8 +14,8 @@ import javax.persistence.*;
 @ToString
 public class Reply extends BaseEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long bno;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long rno;
 
     private String text;
 
