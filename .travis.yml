@@ -3,7 +3,7 @@ java jdk:
           - openjdk8
 branches:
 only:
-          - feature/issue-2
+          - develop
   # Travis CI 서버의 Home
 cache:
   directories:
